@@ -36,10 +36,7 @@ const userInput = [
         name: "tests",
       }
   ];
-//   .then((response) => {
-//     fs.writeFile('README.md', writeToFile(response), (err) =>
-//     err ? console.error(err) : console.log("Success!"))
-// });
+
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
@@ -52,9 +49,9 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(userInput)
     .then(function (answers) {
-        
+        writeToFile("README.md", generateMarkdown(answers))
     })
-}
+};
 
 // Function call to initialize app
 init();

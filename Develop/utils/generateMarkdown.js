@@ -3,6 +3,8 @@
 function renderLicenseBadge(license) {
   if (license !== "None") {
   return `![license](https://img.shields.io/badge/license-${license}-blue)`
+  } else {
+    return "";
   }
 };
 
@@ -11,6 +13,8 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (license !== "None") {
     return `- [License](#license)`
+  } else {
+    return "";
   }
 };
 
@@ -20,7 +24,7 @@ function renderLicenseSection(license) {
   if (license !== "None") {
     return `## License: `
   } else {
-    return;
+    return "";
   }
 };
 
@@ -37,20 +41,25 @@ function generateMarkdown(data) {
   - [Tests](#tests)
   - [Questions](#questions)
   ${renderLicenseLink(data.license)}
-
   
-  ## Description: ${data.description}
   
-  ## Installation: ${data.installation}
+  ## Description: 
+  ${data.description}
   
-  ## Usage: ${data.usage}
+  ## Installation: 
+  ${data.installation}
   
-  ## Contributing: ${data.contributing}
+  ## Usage: 
+  ${data.usage}
   
-  ## Tests: ${data.tests}
+  ## Contributing: 
+  ${data.contributing}
+  
+  ## Tests: 
+  ${data.tests}
   
   ## Questions?
-
+  
   ${renderLicenseSection(data.license)}
   ${renderLicenseBadge(data.license)}
   `;

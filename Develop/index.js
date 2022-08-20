@@ -38,8 +38,8 @@ const userInput = [
   {
     type: 'list',
     name: 'license',
-    message: 'Do you have one of these licenses?',
-    choices: ['MIT', 'Apache', 'None'],
+    message: 'License?',
+    choices: ['MIT', 'Apache', 'GLP', 'BSD', 'None'],
   },
 ];
 

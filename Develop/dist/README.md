@@ -1,4 +1,4 @@
-# thingsdg
+# Example README
   
   ## Table of Contents:
   - [Description](#description)
@@ -7,26 +7,26 @@
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
-  
+  - [License](#license)
   
   
   ## Description: 
-  dfsdvds
+  This is an example of the template for the professional README generator.
   
   ## Installation: 
-  bsdb
+  Lorem ipsum dolor sit amet. Eos magnam pariatur et voluptatum quia non assumenda rerum ut sunt omnis non possimus debitis et illo possimus. 
   
   ## Usage: 
-  bsfb
+  Lorem ipsum dolor sit amet. Eos magnam pariatur et voluptatum quia non assumenda rerum ut sunt omnis non possimus debitis et illo possimus
   
   ## Contributing: 
-  fbsfb
+  Lorem ipsum dolor sit amet
   
-  bfb
+  ## Tests: 
+  Lorem ipsum dolor sit amet
   
   ## Questions?
   
-  
-  
-  ## Tests: 
+  ## License: 
+  ![license](https://img.shields.io/badge/license-MIT-blue)
   

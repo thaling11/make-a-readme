@@ -17,30 +17,50 @@ const userInput = [
   },
   {
     type: "input",
-    message: "Installation:",
+    message: "Installation instructions:",
     name: "installation",
   },
   {
     type: "input",
-    message: "Usage:",
+    message: "Usage information:",
     name: "usage",
   },
   {
     type: "input",
-    message: "Contributing:",
+    message: "Contribution guidelines:",
     name: "contributing",
   },
   {
     type: "input",
-    message: "Tests:",
+    message: "Test instructions:",
     name: "tests",
+  },
+  {
+    type: "input",
+    message: "Github username:",
+    name: "githubUserName",
+  },
+  {
+    type: "input",
+    message: "Github link:",
+    name: "githubLink",
+  },
+  {
+    type: "input",
+    message: "Email:",
+    name: "userEmail",
   },
   {
     type: 'list',
     name: 'license',
-    message: 'License?',
+    message: 'Which license?',
     choices: ['MIT', 'Apache', 'GLP', 'BSD', 'None'],
   },
+  {
+    type: "input",
+    message: "License explanation:",
+    name: "licenseExp",
+  }
 ];
 
 // TODO: Create a function to write README file

@@ -59,9 +59,13 @@ function generateMarkdown(data) {
   ${data.tests}
   
   ## Questions?
-  
+  ${data.githubUserName}
+  ${data.githubLink}
+  ${data.userEmail}
+
   ${renderLicenseSection(data.license)}
   ${renderLicenseBadge(data.license)}
+  ${data.licenseExp}
   `;
 }
 
